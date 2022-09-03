@@ -38,7 +38,7 @@ const app = (0, express_1.default)();
 app.use((0, cors_1.default)());
 app.use(app_middleware_1.default);
 app.use(app_router_1.default);
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.get('/', (req, res) => res.send({
     message: 'Hello',
     date: new Date(),
